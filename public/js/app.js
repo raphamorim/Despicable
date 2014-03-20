@@ -1,26 +1,32 @@
 'use strict';
 
 // Declare app level module which depends on filters, and services
+var despicable = angular.module('despicable', [
+    'myApp.controllers',
+    'myApp.filters',
+    'myApp.services',
+    'myApp.directives'
+    // ,'ngRoute'
+  ]);
 
-angular.module('despicable', [
-  'myApp.controllers',
-  'myApp.filters',
-  'myApp.services',
-  'myApp.directives'
-]).
-config(function ($routeProvider, $locationProvider) {
-  $routeProvider.
-    when('/view1', {
-      templateUrl: 'partials/partial1',
-      controller: 'MyCtrl1'
-    }).
-    when('/view2', {
-      templateUrl: 'partials/partial2',
-      controller: 'MyCtrl2'
-    }).
-    otherwise({
-      redirectTo: '/view1'
-    });
-
-  $locationProvider.html5Mode(true);
-});
+// despicable.config(['$routeProvider', function($routeProvider) {
+//     $routeProvider
+//
+//     // route for the signin page
+// 		.when('/signin', {
+// 			templateUrl : 'partials/signin.html',
+// 			controller  : 'signinController'
+// 		})
+//
+// 		// route for the newbie signup page
+// 		.when('/signupNewbie', {
+// 			templateUrl : 'partials/signupNewbie.html',
+// 			controller  : 'newbieController'
+// 		})
+//
+// 		// route for the enterprise signup page
+// 		.when('/signupEnterprise', {
+// 			templateUrl : 'partials/signupEnterprise.html',
+// 			controller  : 'enterpriseController'
+// 		});
+// }]);
