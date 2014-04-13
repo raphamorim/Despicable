@@ -2,17 +2,20 @@
 
 Be Mean, without lose your style.
 
+Despicable is a seed for speed up your development
+
 This project use: Mongoose, Twitter Bootstrap, Express, AngularJS and NodeJS.
 
 
 ####Guide to be a evil boy
-1 Clone this project
 
-2 Open your project on terminal
+1 Clone this project with `git clone`
 
-3 `npm install`
+2 Now open the project
 
-4 be runnig on 0.0.0.0:8080
+3 Run a `npm install`
+
+4 Done! Despicable will be runnig on 0.0.0.0:8080
 
 ####Structure
 
@@ -20,13 +23,27 @@ This project use: Mongoose, Twitter Bootstrap, Express, AngularJS and NodeJS.
 	>models
 	>public
 		>css
+			>bootstrap.css
 		>images
 		>js
+			>app.js
+			>controllers.js
+			>directives.js
+			>filters.js
+			>services.js
 		>lib
+			>angular
 	>routes
 		>index.js
 	>views
 		>partials
+			>one.ejs
+			>two.ejs
+		>about.ejs
 		>index.ejs
 	>app.js
 	>package.json
+
+###About
+
+**License:** MIT
