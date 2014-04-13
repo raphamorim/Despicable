@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": false,
   "scripts": {
+    "postinstall": "npm start",
     "start": "node app"
   },
   "dependencies": {
