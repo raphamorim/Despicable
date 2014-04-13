@@ -6,15 +6,16 @@
     <link rel='stylesheet' href='/css/style.css' />
   </head>
   <body ng-controller="aboutController">
-    <h1><%= title %></h1>
-    <p><%= description %>.</p>
-
-    <p>{{message}}</p>
-
-    <br>
-    <ul>
-      <li><a href="/">Back to Home</a></li>
-    </ul>
+    
+    <div class="container">
+      <h1><%= title %></h1>
+      <p><%= description %>.</p>
+      <p>{{message}}</p>
+      <p ng-include="template"></p>
+      <ul>
+        <li><a href="/">Back to Home</a></li>
+      </ul>
+    </div>
 
     <script src='lib/angular/angular.js'></script>
     <script src="lib/angular/angular-route.js"></script>
