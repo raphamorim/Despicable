@@ -2,9 +2,7 @@
 
 Be Mean, without lose your style.
 
-This project use **MEAN** stack: <br />
-MongoDB, Express, AngularJS and NodeJS.
-
+This project use: Mongoose, Twitter Bootstrap, Express, AngularJS and NodeJS.
 
 
 ####Guide to be a evil boy
@@ -14,8 +12,7 @@ MongoDB, Express, AngularJS and NodeJS.
 
 3 `npm install`
 
-4 `node app`
-
+4 be runnig on 0.0.0.0:8080
 
 ####Structure
 
@@ -33,7 +30,3 @@ MongoDB, Express, AngularJS and NodeJS.
 		>index.ejs
 	>app.js
 	>package.json
-
-
-<br />
-And... will be runnig on 0.0.0.0:8000
