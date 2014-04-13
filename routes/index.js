@@ -7,3 +7,7 @@ exports.index = function(req, res){
 exports.about = function(req, res){
   res.render('about', { title: 'About Descpicable', description: 'A mean seed, made with style'});
 };
+
+exports.partials = function (req, res) {
+  res.render('partials/' + req.params.name);
+};
