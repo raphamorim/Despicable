@@ -3,12 +3,17 @@
  * Module dependencies.
  */
 
-var express = require('express');
-var routes = require('./routes/index');
-var http = require('http');
-var path = require('path');
+var express = require('express')
+    , routes = require('./routes/index')
+    , http = require('http')
+    , path = require('path')
+    , env = require('./config/environment')
+    , mongoose = require('mongoose');
 
 var app = express();
+
+// conecting to mongoDB
+mongoose.connect(env.config.mongo);
 
 // all environments
 app.set('port', process.env.PORT || 8080);

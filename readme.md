@@ -20,6 +20,7 @@ This project use: Mongoose, Twitter Bootstrap, Express, AngularJS and NodeJS.
 ####Structure
 
 	>config
+		environment.js
 	>models
 	>public
 		>css
