@@ -9,13 +9,15 @@ This project use: Mongoose, Twitter Bootstrap, Express, AngularJS and NodeJS.
 
 ####Guide to be a evil boy
 
-1 Clone this project with `git clone`
+1 Start [MongoDB](https://www.mongodb.org/downloads)
 
-2 Now open the project
+2 Clone this project with `git clone`
 
-3 Run a `npm install`
+3 Now open the project
 
-4 Done! Despicable will be runnig on 0.0.0.0:8080
+4 Run a `npm install`
+
+5 Done! Despicable will be runnig on **http://localhost/:8080**
 
 ####Structure
 
